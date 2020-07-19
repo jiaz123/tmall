@@ -1,0 +1,270 @@
+/*  猜你喜欢开始    */
+.like{
+    padding-right: 30px;
+    width: 1230px;
+    margin: 30px auto 0;
+    padding-top: 30px;
+    
+}
+
+.like-title{
+    color: #666;
+    text-align: center;
+    height: 43px;
+    font-weight: 100;
+}
+.like-ctn{
+    position: relative;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Microsoft YaHei',SimSun,sans-serif,'\65b9\6b63\5170\4ead\9ed1';
+    font-size: 100%;
+}
+
+.like-line{
+    height: 333px;
+
+}
+.like-item{
+    float: left;
+    width: 235px;
+    margin-right: 12px;
+    margin-bottom: 7px;
+}
+.like-line .like-item:last-child{
+    margin-right: 0;
+}
+.card-item{
+    display: block;
+    border: 2px solid #fff;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    width: 100%;
+    height: 315px;
+}
+.card-item:hover{
+    opacity: 0.7;
+}
+.item-pic{
+    display: block;
+    width: 185px;
+    height: 185px;
+    overflow: hidden;
+    margin: 20px auto 0;
+}
+.item-pic img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.item-info {
+    display: block;
+    padding: 14px 12px 8px;
+    text-align: center;
+}
+.item-desc {
+    margin: 8px auto;
+    display: block;
+    width: 135px;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.item-name {
+    font-size: 14px;
+    line-height: 18px;
+    color: #666;
+}
+
+.item-detail {
+    position: relative;
+    display: block;
+    height: 33px;
+    line-height: 22px;
+    margin-top: 2px;
+}
+.item-price {
+    line-height: 32px;
+    color: #ff0036;
+    font-size: 18px;
+}
+/* 猜你喜欢结束 */
+
+
+/* 底部开始 */
+
+.footer{
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.tmall-ensure{
+    width: 1190px;
+    height: 100px;
+    background: url("../imgs/footer-a.jpg") no-repeat;
+    margin: 25px auto;
+    padding: 0;
+}
+
+.tmall-ensure a {
+    float: left;
+    display: block;
+    width: 297px;
+    height: 100px;
+    text-indent: -1000em;
+}
+
+#tmall-desc{
+    width: 1190px;
+    padding-top: 22px;
+    height: 190px;
+    margin: auto;
+    border-top: 1px solid #ededed;
+    /* background-image: url("../imgs/footer-desc-eye.png"); */
+    background-repeat: no-repeat;
+    background-size: 68px 25px;
+}
+#tmall-desc dl {
+    float: left;
+    width: 186px;
+    padding-left: 52px;
+}
+
+#tmall-desc dl dt {
+    color: #646464;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+
+#tmall-desc dl a {
+    width: 100px;
+    overflow: hidden;
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+    color: #8b8b8b;
+    display: block;
+}
+
+#tmall-desc .mobile a {
+    width: 105px;
+    height: 105px;
+    line-height: 105px;
+    text-align: center;
+}
+#tmall-desc .mobile a img{
+    width: 100%;
+    height: 100%;
+}
+/* 底部结束 */
+
+
+
+/* 底部开始 */
+.bottom {
+    
+    width: 100%;
+    height: 220px;
+    background-color: #000;
+  }
+.wrap{
+    width: 1230px;
+    margin: 0 auto;
+}
+
+
+  .bottom .content {
+    height: 220px;
+  }
+  .bottom-ul {
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    color: #fff;
+  }
+  .bottom .content ul:nth-child(1) li {
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  .bottom .content ul:nth-child(2) li {
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-right: 8px;
+    border-right: 1px solid #fff;
+  }
+  .bottom .xu li {
+    margin-top: 10px;
+    margin-right: 30px;
+    float: left;
+    color: #a4a4a4;
+  }
+  
+/* 底部结束 */
+
+
+/* 移动搜索栏和侧栏  开始 */
+.other-search{
+    width: 100%;
+    height: 40px;
+    background: red;
+    position: fixed;
+    top: -50px;
+    left: 0;
+    transition: all 1s ease;
+    z-index: 99999;
+}
+.other-search .search{
+    top: 0;
+}
+.left-banner{
+    width: 37px;
+    height: 200px;
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    background: #ccc;
+    z-index: 99999;
+    transform: scale(0,0);
+    transform-origin: left bottom;
+    transition: all 1s ease;
+}
+
+.left-ban{
+    width: 36px;
+    height: 40px;
+    border: 1px solid #fff;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.left-ban:nth-child(1){
+    background: red;
+}
+.left-ban[color="pink"]:hover{
+    background: pink !important;
+}
+.left-ban[color="orange"]:hover{
+    background: orange !important;
+}
+.left-ban[color="yellow"]:hover{
+    background: yellow !important;
+}
+
+/* 移动导航栏和侧栏结束 */
